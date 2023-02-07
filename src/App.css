@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: rgba(105, 105, 105, 0.37);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container{
+  width: 700px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 3%;
+  box-shadow: 0px 0px 37px 1px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 37px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 37px 1px rgba(0,0,0,0.75);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-conatiner{
+  height: 60px;
+  width: 100%;
+  background-color: #F55A5A;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 5%;
 }
-
-.App-link {
-  color: #61dafb;
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  width: 25%;
 }
+.navbar-logo img{
+  width: 25px;
+}
+.navbar-logo h5{
+  color: #fff;
+  font-size: 1rem;
+}
+.card-container{
+  display: flex;
+  justify-content: center;
+}
+.card-contant{
+  margin: 5% 0;
+  width: 88%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-contant img{
+  width: 35%;
+  text-align: center;
+  border-radius: 10px;
+}
+.card-contant-info{
+  width: 60%;
+}
+.card-contant-location{
+  display: flex;
+  align-items: center;
+  margin: 2% 0;
+  width: 80%;
+}
+.card-contant-location img{
+  width: 10px;
+}
+.card-contant-location h4{
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.card-contant-location a{
+  color: rgb(107, 107, 107);
+}
+.card-contant-location a:hover{
+  color: rgb(8, 8, 8);
+}
+.card-contant-info h1{
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  margin: 3% 0;
+  color: rgba(0, 0, 0, 0.829);
+}
+.card-contant-info h3{
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.829);
+  margin: 3% 0;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.card-contant-info p{
+  font-size: 1rem;
+  font-weight: 400;
 }
